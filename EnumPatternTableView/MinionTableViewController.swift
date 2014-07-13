@@ -34,7 +34,6 @@ class MinionTableViewController: UITableViewController {
         }
     }
     
-    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -48,10 +47,10 @@ class MinionTableViewController: UITableViewController {
     override func tableView(tableView: UITableView!, cellForRowAtIndexPath indexPath: NSIndexPath!) -> UITableViewCell! {
         let cell = tableView.dequeueReusableCellWithIdentifier(minionCellIdentifier) as UITableViewCell
         
-        let minionIndex = MinionIndex.fromRaw(indexPath.row) as MinionIndex
-        
-        cell.textLabel.text = minionIndex.minionName()
-        cell.imageView.image = minionIndex.minionImage()
+        if let minionIndex = MinionIndex.fromRaw(indexPath.row) {
+            cell.textLabel.text = minionIndex.minionName()
+            cell.imageView.image = minionIndex.minionImage()
+        }
         
         return cell
     }
