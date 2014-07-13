@@ -1,0 +1,410 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAF7B3711972A14D00113427 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF7B3701972A14D00113427 /* AppDelegate.swift */; };
+		FAF7B3761972A14D00113427 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAF7B3741972A14D00113427 /* Main.storyboard */; };
+		FAF7B3781972A14D00113427 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAF7B3771972A14D00113427 /* Images.xcassets */; };
+		FAF7B3841972A14D00113427 /* EnumPatternTableViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF7B3831972A14D00113427 /* EnumPatternTableViewTests.swift */; };
+		FAF7B38E1972A22300113427 /* MinionTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF7B38D1972A22300113427 /* MinionTableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FAF7B37E1972A14D00113427 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAF7B3631972A14D00113427 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAF7B36A1972A14D00113427;
+			remoteInfo = EnumPatternTableView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FAF7B36B1972A14D00113427 /* EnumPatternTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EnumPatternTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAF7B36F1972A14D00113427 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAF7B3701972A14D00113427 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FAF7B3751972A14D00113427 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FAF7B3771972A14D00113427 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FAF7B37D1972A14D00113427 /* EnumPatternTableViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EnumPatternTableViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAF7B3821972A14D00113427 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAF7B3831972A14D00113427 /* EnumPatternTableViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumPatternTableViewTests.swift; sourceTree = "<group>"; };
+		FAF7B38D1972A22300113427 /* MinionTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MinionTableViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAF7B3681972A14D00113427 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAF7B37A1972A14D00113427 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAF7B3621972A14D00113427 = {
+			isa = PBXGroup;
+			children = (
+				FAF7B36D1972A14D00113427 /* EnumPatternTableView */,
+				FAF7B3801972A14D00113427 /* EnumPatternTableViewTests */,
+				FAF7B36C1972A14D00113427 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAF7B36C1972A14D00113427 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAF7B36B1972A14D00113427 /* EnumPatternTableView.app */,
+				FAF7B37D1972A14D00113427 /* EnumPatternTableViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAF7B36D1972A14D00113427 /* EnumPatternTableView */ = {
+			isa = PBXGroup;
+			children = (
+				FAF7B3701972A14D00113427 /* AppDelegate.swift */,
+				FAF7B38D1972A22300113427 /* MinionTableViewController.swift */,
+				FAF7B3741972A14D00113427 /* Main.storyboard */,
+				FAF7B3771972A14D00113427 /* Images.xcassets */,
+				FAF7B36E1972A14D00113427 /* Supporting Files */,
+			);
+			path = EnumPatternTableView;
+			sourceTree = "<group>";
+		};
+		FAF7B36E1972A14D00113427 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FAF7B36F1972A14D00113427 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FAF7B3801972A14D00113427 /* EnumPatternTableViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				FAF7B3831972A14D00113427 /* EnumPatternTableViewTests.swift */,
+				FAF7B3811972A14D00113427 /* Supporting Files */,
+			);
+			path = EnumPatternTableViewTests;
+			sourceTree = "<group>";
+		};
+		FAF7B3811972A14D00113427 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FAF7B3821972A14D00113427 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAF7B36A1972A14D00113427 /* EnumPatternTableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAF7B3871972A14D00113427 /* Build configuration list for PBXNativeTarget "EnumPatternTableView" */;
+			buildPhases = (
+				FAF7B3671972A14D00113427 /* Sources */,
+				FAF7B3681972A14D00113427 /* Frameworks */,
+				FAF7B3691972A14D00113427 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EnumPatternTableView;
+			productName = EnumPatternTableView;
+			productReference = FAF7B36B1972A14D00113427 /* EnumPatternTableView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FAF7B37C1972A14D00113427 /* EnumPatternTableViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAF7B38A1972A14D00113427 /* Build configuration list for PBXNativeTarget "EnumPatternTableViewTests" */;
+			buildPhases = (
+				FAF7B3791972A14D00113427 /* Sources */,
+				FAF7B37A1972A14D00113427 /* Frameworks */,
+				FAF7B37B1972A14D00113427 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAF7B37F1972A14D00113427 /* PBXTargetDependency */,
+			);
+			name = EnumPatternTableViewTests;
+			productName = EnumPatternTableViewTests;
+			productReference = FAF7B37D1972A14D00113427 /* EnumPatternTableViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAF7B3631972A14D00113427 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = NatashaTheRobot;
+				TargetAttributes = {
+					FAF7B36A1972A14D00113427 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					FAF7B37C1972A14D00113427 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = FAF7B36A1972A14D00113427;
+					};
+				};
+			};
+			buildConfigurationList = FAF7B3661972A14D00113427 /* Build configuration list for PBXProject "EnumPatternTableView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAF7B3621972A14D00113427;
+			productRefGroup = FAF7B36C1972A14D00113427 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAF7B36A1972A14D00113427 /* EnumPatternTableView */,
+				FAF7B37C1972A14D00113427 /* EnumPatternTableViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAF7B3691972A14D00113427 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAF7B3761972A14D00113427 /* Main.storyboard in Resources */,
+				FAF7B3781972A14D00113427 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAF7B37B1972A14D00113427 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAF7B3671972A14D00113427 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAF7B3711972A14D00113427 /* AppDelegate.swift in Sources */,
+				FAF7B38E1972A22300113427 /* MinionTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAF7B3791972A14D00113427 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAF7B3841972A14D00113427 /* EnumPatternTableViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FAF7B37F1972A14D00113427 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAF7B36A1972A14D00113427 /* EnumPatternTableView */;
+			targetProxy = FAF7B37E1972A14D00113427 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FAF7B3741972A14D00113427 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAF7B3751972A14D00113427 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAF7B3851972A14D00113427 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FAF7B3861972A14D00113427 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAF7B3881972A14D00113427 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = EnumPatternTableView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FAF7B3891972A14D00113427 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = EnumPatternTableView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FAF7B38B1972A14D00113427 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EnumPatternTableView.app/EnumPatternTableView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = EnumPatternTableViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		FAF7B38C1972A14D00113427 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EnumPatternTableView.app/EnumPatternTableView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = EnumPatternTableViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAF7B3661972A14D00113427 /* Build configuration list for PBXProject "EnumPatternTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAF7B3851972A14D00113427 /* Debug */,
+				FAF7B3861972A14D00113427 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAF7B3871972A14D00113427 /* Build configuration list for PBXNativeTarget "EnumPatternTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAF7B3881972A14D00113427 /* Debug */,
+				FAF7B3891972A14D00113427 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FAF7B38A1972A14D00113427 /* Build configuration list for PBXNativeTarget "EnumPatternTableViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAF7B38B1972A14D00113427 /* Debug */,
+				FAF7B38C1972A14D00113427 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAF7B3631972A14D00113427 /* Project object */;
+}
